@@ -15,3 +15,17 @@ Since we're going to use both ES6 and React's [JSX syntax](https://facebook.gith
 ```
 npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
 ```
+### 2. Unit Testing support
+Unit test libraries that we used on the server - Mocha and Chai
+```
+npm install --save-dev mocha chai
+```
+We're going to test our React components as well, and that's going to require a DOM. One alternative would be to run tests in an actual web browser with a library like [Karma](http://karma-runner.github.io/0.13/index.html). However, we don't actually need to do that because [we can get away with](http://jaketrent.com/post/testing-react-with-jsdom/) using [jsdom](https://github.com/tmpvar/jsdom), a pure JavaScript DOM implementation that runs in Node:
+```
+npm install --save-dev jsdom
+```
+```
+npm install --save immutable
+npm install --save-dev chai-immutable
+```
+

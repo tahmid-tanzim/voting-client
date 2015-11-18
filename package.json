@@ -4,7 +4,8 @@
   "description": "Client app for the Full-Stack Redux Tutorial http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js 'test/**/*.@(js|jsx)'",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,20 @@
   "author": "Tahmid Tanzim <tahmid.tanzim@gmail.com>",
   "license": "GNU General Public License (GPL)",
   "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-immutable": "^1.5.2",
+    "jsdom": "^7.0.2",
+    "mocha": "^2.3.4",
     "webpack": "^1.12.6",
     "webpack-dev-server": "^1.12.1"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^3.7.5"
   }
 }
