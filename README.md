@@ -28,4 +28,9 @@ npm install --save-dev jsdom
 npm install --save immutable
 npm install --save-dev chai-immutable
 ```
+React and react-hot-loader
+```
+npm install --save react react-dom
+npm install --save-dev react-hot-loader
+```
 
