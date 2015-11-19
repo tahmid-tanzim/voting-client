@@ -45,4 +45,8 @@ npm install --save react-router@1.0.0-rc3
 ```
 npm install --save redux
 ```
+[react-redux](https://github.com/rackt/react-redux) is official React bindings for Redux
+```
+npm install --save react-redux
+```
 
