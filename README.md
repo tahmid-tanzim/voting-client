@@ -37,4 +37,8 @@ Installing [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-m
 ```
 npm install --save react-addons-pure-render-mixin
 ```
+Installing [React Router](https://github.com/rackt/react-router)
+```
+npm install --save react-router@1.0.0-rc3
+```
 
