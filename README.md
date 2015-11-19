@@ -41,4 +41,8 @@ Installing [React Router](https://github.com/rackt/react-router)
 ```
 npm install --save react-router@1.0.0-rc3
 ```
+[Redux](http://redux.js.org/) is a predictable state container for JavaScript apps
+```
+npm install --save redux
+```
 
