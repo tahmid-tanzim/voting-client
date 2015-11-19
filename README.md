@@ -33,4 +33,8 @@ React and react-hot-loader
 npm install --save react react-dom
 npm install --save-dev react-hot-loader
 ```
+Installing [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html)
+```
+npm install --save react-addons-pure-render-mixin
+```
 
