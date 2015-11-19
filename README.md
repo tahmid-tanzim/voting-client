@@ -49,4 +49,8 @@ npm install --save redux
 ```
 npm install --save react-redux
 ```
+Setting Up The Socket.io Client
+```
+npm install --save socket.io-client
+```
 
